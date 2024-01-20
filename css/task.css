@@ -1,0 +1,448 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;}
+ul,ol {
+    list-style-type: none;
+  
+}
+
+a {
+    text-decoration: none;}
+body{
+    position: relative;
+}
+.header-wraper{
+    display: flex;
+    justify-content: space-between;
+    height: 84px;
+    align-items: center;
+    position: relative;
+}
+.header-wraper .nav-list{
+    display: none;
+    gap: 50px;
+}
+.sign-up{
+    background-color: #4CAF4F;
+    color: #fff;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login{
+    color: #4CAF4F;
+}
+.line{
+    width: 80%;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.7s;
+  
+}
+.line1{
+    top: 30%;
+   
+}
+.line3{
+    top: 70%;
+}
+.burger{
+position: absolute;
+top: 25px;
+right: 15px;
+width: 50px;
+height: 50px;
+}
+.login-signup{
+    display: none;
+}
+.nexcent{
+ font-size: 30px;
+}
+.nav-list.list-active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+   position: absolute;
+   font-size: 30px;
+  
+   top: 100px;
+    left: 20px;
+  
+}
+.nav-list a {
+    color: #000;
+}
+.burger.active .line1{
+    top: 50%;
+    transform: translate(-50%,-50% ) rotate(45deg);
+    
+   }
+   .burger.active .line2{
+     display: none;
+     
+     
+ 
+   }
+   .burger.active .line3{
+     top: 50%;
+    transform: translate(-50%,-50% ) rotate(-45deg);
+    
+     
+ 
+   }
+   .nexcent.active-logo{
+    display: none;
+  }
+  .login-signup.active-btn{
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+  }
+  .header-wraper.avtive-wraper{
+    background-image:url(https://static.wixstatic.com/media/d37ad1_8de8dcc9861e4f4998a6df1ddb0b9955~mv2.jpg/v1/fill/w_640,h_992,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d37ad1_8de8dcc9861e4f4998a6df1ddb0b9955~mv2.jpg) ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100vh ;
+   
+}
+.nav-list.list-active a{ 
+    color:#fff;
+
+}
+
+.register{
+   background-color:  #4CAF4F;
+   color: #fff;
+   width: 120px;
+   height: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.frome{
+    color: #4CAF4F;
+}
+.slider{
+    background-color: #E0E0E0;
+   
+    display: flex;
+    justify-content: center;
+  
+   
+    
+}
+.grid{
+  display: grid;
+  row-gap: 20px;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.footer{
+ background-color: #263238;
+ color: #fff;
+ display: grid;
+ row-gap: 25px;
+padding-left: 30px;
+
+ 
+
+}
+ 
+
+
+.footer-wraper a{
+  color:#fff;
+}
+.SeeMore-btn{
+    background-color: #4CAF4F;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.text{
+    display: grid;
+    row-gap: 20px;
+   
+}
+.mobile-login{
+    margin-top: 42px;
+    display: grid;
+    row-gap: 20px;
+}
+.less{
+    background-color: #4CAF4F;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    display: none;
+
+
+}  
+.less.less-active{
+    display: block;
+}
+   
+.SeeMore-btn.SeeMore-btnactive{
+    display: none;
+}
+.members{
+    display: grid;
+    row-gap: 30px;
+}
+.error-text {
+    color: red;
+}
+.validation{
+    display: none;
+}
+.validation.active-validation{
+    display: block;
+    height: 100vh;
+   
+  position: relative;
+background-image: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
+
+ 
+     
+}
+.registrer{
+   
+   
+    position: absolute;
+  
+     top: 50%;top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);  
+   
+    
+}
+
+  [ name="username"]{
+    height: 30px;
+    width: 19rem;
+    border-radius: 12px;
+}
+[name="passw"]{
+    height: 30px;
+    width: 19rem;
+    border-radius: 12px;
+    position: relative;
+}
+[ name="passw2"]{
+    height: 30px;
+    width: 19rem;
+    border-radius: 12px;
+}
+[type="email"]{
+    height: 30px;
+    width: 19rem;
+    border-radius: 12px;
+}
+[type="submit"]{
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF4F;
+}
+.showIcon{
+    color:#000;
+    position: absolute;
+    right: 10px;
+    top: 120px;
+}
+.formvalidation{
+   row-gap: 20px;
+   display: grid;
+}
+.sh{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+.body.body-active,.active-body{
+    overflow: hidden;
+}
+
+ 
+    
+ .header-wraper.wraper-active{
+    display: none;
+ }
+ .h-s{
+    color: #fff;
+ }
+.bf{
+   font-size: 42px;
+  
+}
+.demo-p{
+   
+    text-align: center;
+   
+    
+}
+.business{
+color: #4CAF4F;
+font-size: 25px;
+}
+.Payments{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.texts{
+    font-size: 9px;
+    
+}
+.icons .d1, .d2 {
+    display: grid;
+    row-gap: 15px;
+}
+.d3{
+    display: grid;
+    row-gap: 20px;
+}
+.mobile-login2{
+    margin-top: 50px;
+}
+.nexcentjpg{
+    width: 450px;
+}
+
+  
+  .logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 37px;
+  }
+  .comuniti-wraper{
+    margin-top: 120px;
+  }
+  .dot-item {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.dot-item:hover{
+    background-color: #bbb;
+}
+.dots-Wraper {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 37px;
+    transform: translateX(-50%);
+   
+  
+}
+.slider-wraper {
+    position: relative;
+   transition: all 5s;
+
+}
+.imige-active{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition:all 0.5s ;
+   
+    
+}
+
+.ts{
+    color: #4CAF4F;
+    font-size: 20px;
+}
+.tt{
+    display: grid;
+    row-gap: 16px;
+}
+.tesla{
+    margin-top: 80px;
+}
+.pa{
+    display: none;
+}
+.h1-p{
+    text-align: center;
+}
+.get-demo{
+    background-color: #4CAF4F;
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+   margin-top: 20%;
+   
+}
+[alt="sendsvg"]{
+    position: absolute;
+    left: 270px;
+    bottom: 5px;
+   
+}
+.vi{
+    position: relative;
+}
+.vi input{
+    background-color: #D9D9D9;
+}
+.fa-solid{position: fixed;
+    right: 50px;
+    bottom: 50px;
+    font-size: 40px;
+    
+    display: none;
+}
+
+.fd1{
+    display: grid;
+    row-gap: 40px;
+}
+.footer-uls{
+    margin-top: 24px;
+    display: grid;
+    row-gap: 12px;
+}
+.vi input{
+    margin-top: 24px;
+}
+
+.fa-xmark{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+     color: #fff;
+     font-size: 50px;
+}

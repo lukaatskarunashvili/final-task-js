@@ -1,0 +1,157 @@
+@media (min-width: 480px){
+    
+    
+    .pp{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+  
+@media (min-width: 768px){
+    .header-wraper .nav-list{
+        display: flex;
+        gap: 50px;
+    }
+    .burger{
+        display: none;
+    }
+    .login-signup{
+        display: block;
+    }
+    
+    .Lesson{
+        font-size: 50px;
+    }
+    .frome{
+        font-size: 50px;
+    }
+    .footer{
+        display: flex;
+        height: 328px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    [alt="sendsvg"]{
+        position: absolute;
+        right: 15px;
+        bottom: 5px;
+       
+    }
+   
+   
+    .members{
+        display: flex;
+        text-align: center;
+        column-gap: 120px;
+
+    }
+  
+       
+        
+    
+    .hading{
+        display: grid;
+        place-items: center;
+        text-align: center;
+        row-gap: 10px;
+    
+    }
+    .mobile-login{
+        display: flex;
+      
+        justify-content: space-between;
+    }
+    .text{
+        width: 660px;
+        height: 260px;
+    }
+    .reinvent{
+        display: flex;
+        height: 280px;
+        background-color: #F5F7FA;
+        justify-content: space-evenly;
+        align-items: center;
+       
+    }
+    .icons{
+        display: flex;
+        column-gap: 50px;
+    }
+    .mobile-login2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .texts2{
+        padding: 100px;
+    }
+    .tesla{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #F5F7FA;
+        padding: 20px;
+    }
+   
+   
+    
+}
+@media (min-width: 1024px){
+    .compiuter{
+        position: absolute;
+        top: 96px;
+        right: 144px;
+    }
+        .slider{
+        height: 600px;
+        width: auto;
+        padding: 0px, 144px;
+        position: relative;
+        padding: 144px;
+        display: flex;
+        justify-content: start;
+    }
+    .nexcentjpg{
+        position: absolute;
+        top: 96px;
+        right: 144px;
+        
+    }
+    
+    .pa{ display: block;
+        width: 317px;
+        height: 176px;
+        background-color: #E0E0E0;
+       border-radius: 10px;
+       position: absolute;
+       top: 60%;
+       left: 7%;
+       padding: 16px 16px 0px 16px;
+       text-align: center;
+    }
+    
+    .img{
+        position: relative;
+    }
+    .pa span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+        color: #4CAF4F;
+    }
+    
+    .pp{
+        margin-top: 16px;
+    }
+    .newmarketing{
+        padding: 0 146px;
+        height: 506px;
+        margin-top: 48px;
+    }
+    .demo-p{
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
